@@ -20,8 +20,8 @@ jobs:
         dotnet-version: '8.0.x'
 
     # Publicar la aplicación
-    - name: Publish .NET Project
-      run: dotnet publish BlazorConGitHub/BlazorConGitHub.csproj -c Release -o release --nologo
+     - name: Publish .NET Project
+     run: dotnet publish BlazorConGithub/BlazorConGithub.csproj -c Release -o release --nologo
 
     # Cambiar la ruta base en index.html
     - name: Change base-tag in index.html
